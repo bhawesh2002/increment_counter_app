@@ -24,6 +24,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark
+      ),
       home: const MyHomePage(title: 'HOT RELOAD'),
       debugShowCheckedModeBanner: false,
     );
