@@ -68,6 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
   void _decrementCounter() {
     setState(() {
       _counter--;
+      if (_counter < 1) {
+        debugPrint('Already On zero, Can\'t go Any Down');  //print meaasge to inform user is on zero
+        _counter = 0;   //reset the counter to zero
+      }
     });
   }
 
