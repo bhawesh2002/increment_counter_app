@@ -71,7 +71,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'Welcome To The World Of \'FLUTTER + DART\'',
               style: TextStyle(fontWeight: FontWeight.bold,color: Colors.blueAccent)
-              )
+              ),
+              Padding(padding: EdgeInsets.only(top: 550))
           ]),
         ));
   }
