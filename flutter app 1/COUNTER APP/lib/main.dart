@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
             LayoutBuilder(builder: (context, constraints) {
               if (_counter == 0) {
                 return const Text(
-                  "CAN'T GO BELOW ZERO",
+                  "CAN'T GO BELOW ZERO\n     PRESS  '+'  to ADD 1",
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 );
               } else {
