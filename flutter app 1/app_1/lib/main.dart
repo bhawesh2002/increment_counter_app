@@ -58,21 +58,21 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Column(children: <Widget>[
-            Padding(padding: EdgeInsets.only(top: 25)),
-            Text('Welcome To The World Of \'FLUTTER + DART\'',
+            const Padding(padding: EdgeInsets.only(top: 25)),
+            const Text('Welcome To The World Of \'FLUTTER + DART\'',
                 style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
                     color: Colors.blueAccent)),
-            Padding(padding: EdgeInsets.only(bottom: 250)),
-            Text(
+            const Padding(padding: EdgeInsets.only(bottom: 250)),
+            const Text(
               'This is my first (Well Not the FIRST) Flutter App',
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            IconButton(onPressed: (){}, icon: const Icon(Icons.add))
+            IconButton(onPressed: () {}, icon: const Icon(Icons.add))
           ]),
         ));
   }
