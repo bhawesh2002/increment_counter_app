@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {},
                 icon: const Icon(Icons.add),
                 splashRadius: 20,
-                splashColor: Colors.blue,
+                splashColor: Colors.white,
               ),
             )
           ]),
