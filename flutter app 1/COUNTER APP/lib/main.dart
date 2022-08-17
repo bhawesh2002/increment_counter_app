@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Padding(padding: EdgeInsets.all(10)),
             const Text(
               'Try Pressing Add or Subtract icon',
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
             ),
             const Padding(padding: EdgeInsets.all(10)),
             Row(
