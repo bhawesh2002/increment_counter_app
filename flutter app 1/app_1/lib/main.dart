@@ -72,11 +72,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.add),
-              splashRadius: 20,
-              splashColor: Colors.blue,
+            Ink(
+              decoration: const ShapeDecoration(
+                  shape: CircleBorder(), color: Colors.blue),
+              child: IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.add),
+                splashRadius: 20,
+                splashColor: Colors.blue,
+              ),
             )
           ]),
         ));
