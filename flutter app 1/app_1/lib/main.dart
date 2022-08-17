@@ -62,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
               Text('This is My first, (Well not the fist) Flutter App'),
+              Text('Welcome To The World Of \'FLUTER+DART\'')
             ],
           )
         ],
