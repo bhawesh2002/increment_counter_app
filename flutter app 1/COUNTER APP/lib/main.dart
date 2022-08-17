@@ -110,11 +110,14 @@ class _MyHomePageState extends State<MyHomePage> {
             const Padding(padding: EdgeInsets.all(15)),
             LayoutBuilder(builder: (context, constraints) {
               if (_counter == 0) {
-                return const Text("CAN'T GO BELOW ZERO");
+                return const Text(
+                  "CAN'T GO BELOW ZERO",
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                );
               } else {
                 return const Text(
                   "PRESS  '+'  to ADD 1 and  '-'  to SUBTARCT 1",
-                  style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 );
               }
             })
