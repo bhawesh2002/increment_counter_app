@@ -58,22 +58,21 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-            Text(
-              'This is my first (Well Not the FIRST) Flutter App',
-              style: TextStyle(
-                fontSize : 17,
-                fontWeight: FontWeight.bold,
-              ),
-              ),
-            Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-            Text(
-              'Welcome To The World Of \'FLUTTER + DART\'',
-              style: TextStyle(fontWeight: FontWeight.bold,color: Colors.blueAccent)
-              ),
-              Padding(padding: EdgeInsets.only(top: 550))
-          ]),
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                Text('Welcome To The World Of \'FLUTTER + DART\'',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: Colors.blueAccent)),
+                Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+                Text(
+                  'This is my first (Well Not the FIRST) Flutter App',
+                  style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Padding(padding: EdgeInsets.only(top: 550))
+              ]),
         ));
   }
 }
