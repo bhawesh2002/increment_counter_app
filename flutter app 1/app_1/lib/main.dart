@@ -57,23 +57,23 @@ class _MyHomePageState extends State<MyHomePage> {
           title: const Text('Hot Reload'),
         ),
         body: Center(
-          child: Column(
-              children: const [
-                Padding(padding: EdgeInsets.only(top: 25)),
-                Text('Welcome To The World Of \'FLUTTER + DART\'',
-                    style: TextStyle(
-                        fontSize: 17,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.blueAccent)),
-                Padding(padding: EdgeInsets.only(bottom: 250)),
-                Text(
-                  'This is my first (Well Not the FIRST) Flutter App',
-                  style: TextStyle(
-                    fontSize: 15,
+          child: Column(children: <Widget>[
+            Padding(padding: EdgeInsets.only(top: 25)),
+            Text('Welcome To The World Of \'FLUTTER + DART\'',
+                style: TextStyle(
+                    fontSize: 17,
                     fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ]),
+                    color: Colors.blueAccent)),
+            Padding(padding: EdgeInsets.only(bottom: 250)),
+            Text(
+              'This is my first (Well Not the FIRST) Flutter App',
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            IconButton(onPressed: (){}, icon: const Icon(Icons.add))
+          ]),
         ));
   }
 }
