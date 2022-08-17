@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text('Hot Reload'),
       ),
+      body: ListView(),
     );
   }
 }
