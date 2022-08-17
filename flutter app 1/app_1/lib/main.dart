@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
             Text('This is my first (Well Notthe FIRST) Flutter App'),
-            Padding(padding: EdgeInsets.all(8.0)),
+            Padding(padding: EdgeInsets.symmetric(vertical: 10)),
             Text('Welcome To The World Of \'FLUTTER + DART\'')
           ]),
         ));
