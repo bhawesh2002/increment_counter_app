@@ -65,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontSize: 17,
                         fontWeight: FontWeight.bold,
                         color: Colors.blueAccent)),
+                Padding(padding: EdgeInsets.only(bottom: 250)),
                 Text(
                   'This is my first (Well Not the FIRST) Flutter App',
                   style: TextStyle(
