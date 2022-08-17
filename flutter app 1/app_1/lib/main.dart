@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            const Padding(padding: EdgeInsets.all(8.0)),
             Ink(
               decoration: const ShapeDecoration(
                   shape: CircleBorder(), color: Colors.blue),
