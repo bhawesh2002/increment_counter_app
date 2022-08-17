@@ -62,6 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
             children: const [
             Text(
               'This is my first (Well To the FIRST) Flutter App',
+              style: TextStyle(
+                fontSize : 17,
+                fontWeight: FontWeight.bold,
+              ),
               ),
             Padding(padding: EdgeInsets.symmetric(vertical: 10)),
             Text('Welcome To The World Of \'FLUTTER + DART\'')
