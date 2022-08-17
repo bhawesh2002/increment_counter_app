@@ -91,6 +91,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     splashColor: Colors.white,
                   ),
                 ),
+                Text(
+                  '$_counter',
+                  style: const TextStyle(fontSize: 25),
+                ),
                 Ink(
                   decoration: const ShapeDecoration(
                       shape: CircleBorder(), color: Colors.blue),
