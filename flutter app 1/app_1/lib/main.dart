@@ -58,8 +58,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: const [
+                Padding(padding: EdgeInsets.only(top: 25)),
                 Text('Welcome To The World Of \'FLUTTER + DART\'',
                     style: TextStyle(
                         fontSize: 17,
