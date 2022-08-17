@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
             Text(
-              'This is my first (Well To the FIRST) Flutter App',
+              'This is my first (Well Not the FIRST) Flutter App',
               style: TextStyle(
                 fontSize : 17,
                 fontWeight: FontWeight.bold,
