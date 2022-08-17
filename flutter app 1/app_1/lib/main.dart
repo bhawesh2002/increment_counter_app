@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   decoration: const ShapeDecoration(
                       shape: CircleBorder(), color: Colors.blue),
                   child: IconButton(
-                    onPressed: () {},
+                    onPressed: _incrementCounter,
                     icon: const Icon(Icons.add),
                     splashRadius: 20,
                     splashColor: Colors.white,
