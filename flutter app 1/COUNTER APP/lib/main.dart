@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'This is my first (Well Not the FIRST) Flutter App',
               style: TextStyle(
-                fontSize: 15,
+                fontSize: 17,
                 fontWeight: FontWeight.bold,
               ),
             ),
