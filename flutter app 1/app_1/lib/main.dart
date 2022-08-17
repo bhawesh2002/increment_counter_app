@@ -73,16 +73,21 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             const Padding(padding: EdgeInsets.all(8.0)),
-            Ink(
-              decoration: const ShapeDecoration(
-                  shape: CircleBorder(), color: Colors.blue),
-              child: IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.add),
-                splashRadius: 20,
-                splashColor: Colors.white,
-              ),
-            )
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Ink(
+                  decoration: const ShapeDecoration(
+                      shape: CircleBorder(), color: Colors.blue),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.add),
+                    splashRadius: 20,
+                    splashColor: Colors.white,
+                  ),
+                )
+              ],
+            ),
           ]),
         ));
   }
