@@ -53,20 +53,14 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Hot Reload'),
-      ),
-      body: ListView(
-        children: [
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget>[
-              Text('This is My first, (Well not the fist) Flutter App'),
-              Text('Welcome To The World Of \'FLUTER+DART\'')
-            ],
-          )
-        ],
-      ),
-    );
+        appBar: AppBar(
+          title: const Text('Hot Reload'),
+        ),
+        body: Center(
+          child: Column(children: const [
+            Text('This is my first (Well Not the FIRST) Flutter App'),
+            Text('Welcome To The World Of \'FLUTTER + DART\'')
+          ]),
+        ));
   }
 }
