@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        brightness: Brightness.light
-      ),
+      theme: ThemeData(brightness: Brightness.light),
       darkTheme:
           ThemeData(brightness: Brightness.dark //add dark mode to the app
               ),
@@ -58,7 +56,16 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text('Hot Reload'),
       ),
-      body: ListView(),
+      body: ListView(
+        children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const <Widget>[
+              Text('This is My first, (Well not the fist) Flutter App'),
+            ],
+          )
+        ],
+      ),
     );
   }
 }
