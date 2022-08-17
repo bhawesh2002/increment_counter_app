@@ -107,6 +107,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 )
               ],
             ),
+            LayoutBuilder(builder: (context, constraints) {
+              if (_counter == 0) {
+                return const Text("CAN'T GO BELOW ZERO");
+              } else {
+                return const Text(
+                    "PRESS \'+\' to ADD 1 and \'- \' to SUBTARCT 1");
+              }
+            })
           ]),
         ));
   }
