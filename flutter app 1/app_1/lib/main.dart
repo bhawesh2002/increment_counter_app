@@ -72,7 +72,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Padding(padding: EdgeInsets.only(top: 550))
               ]),
         ));
   }
