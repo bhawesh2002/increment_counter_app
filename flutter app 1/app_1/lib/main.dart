@@ -57,7 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
           title: const Text('Hot Reload'),
         ),
         body: Center(
-          child: Column(children: const [
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
             Text('This is my first (Well Not the FIRST) Flutter App'),
             Text('Welcome To The World Of \'FLUTTER + DART\'')
           ]),
