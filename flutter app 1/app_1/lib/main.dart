@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Hot Reload'),
+          title: const Text('COUNTER APP'),
         ),
         body: Center(
           child: Column(children: <Widget>[
