@@ -73,6 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             const Padding(padding: EdgeInsets.all(10)),
+            const Text('Try Pressing Add or Subtract icon'),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
