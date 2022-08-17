@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'COUNETR APP',
       theme: ThemeData(brightness: Brightness.light),
       darkTheme:
           ThemeData(brightness: Brightness.dark //add dark mode to the app
