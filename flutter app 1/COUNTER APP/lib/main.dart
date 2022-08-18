@@ -12,9 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'COUNETR APP',
-      theme: ThemeData(brightness: Brightness.light),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       darkTheme: ThemeData(
-        primaryColor: Colors.black
+        canvasColor: Colors.black,
       ),
       home: const MyHomePage(title: 'HOT RELOAD'),
       debugShowCheckedModeBanner: false,
