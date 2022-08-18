@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'COUNETR APP',
       theme: ThemeData(brightness: Brightness.light),
-      darkTheme:
-          ThemeData(brightness: Brightness.dark //add dark mode to the app
-              ),
+      darkTheme: ThemeData(
+        primaryColor: Colors.black
+      ),
       home: const MyHomePage(title: 'HOT RELOAD'),
       debugShowCheckedModeBanner: false,
     );
