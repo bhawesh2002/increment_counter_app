@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      darkTheme: ThemeData(
-        canvasColor: Colors.black,
+      darkTheme: ThemeData(brightness: Brightness.dark
+
       ),
       home: const MyHomePage(title: 'HOT RELOAD'),
       debugShowCheckedModeBanner: false,
