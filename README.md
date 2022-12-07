@@ -4,5 +4,5 @@
 To view the **COUNTER APP** :- https://dartpad.dev/2ed8f509631e5d6ef6c686213b663c10  (Press **Run** to view the O/P)
 
 Here are the screenshots : 
-![alt text](https://github.com/bhawesh2002/my_flutter_projects/blob/main/flutter%20app%201/COUNTER%20APP/lib/ScreenShotts/Screenshot_1661093562.png?raw=true)
+![alt text](https://github.com/bhawesh2002/increment_counter_app/blob/main/COUNTER%20APP/lib/ScreenShotts/Screenshot_1661093562.png?raw=true)
 
